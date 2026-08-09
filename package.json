@@ -1,0 +1,42 @@
+{
+  "name": "tanya-news",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "python app.py",
+    "build": "mkdir -p dist && echo '<html><body><h1>Tanya Polyglot News Engine</h1></body></html>' > dist/index.html",
+    "dist": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.vinayakghai.tanya",
+    "productName": "Tanya-News",
+    "directories": {
+      "output": "dist_desktop"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": ["nsis", "zip"],
+      "icon": "assets/logo.png"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "News",
+      "icon": "assets/logo.png"
+    },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "category": "public.app-category.news",
+      "icon": "assets/logo.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8"
+  }
+}

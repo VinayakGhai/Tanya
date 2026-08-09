@@ -1,15 +1,20 @@
-# 📰 Tanya - Trending And New Yielded Articles
+<p align="center">
+  <a href="https://github.com/VinayakGhai/Tanya">
+    <img src="assets/logo.png" width="240" alt="Tanya Logo" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(139,92,246,0.3);">
+  </a>
+</p>
 
-<div align="center">
+<h1 align="center">📰 Tanya - Polyglot News Engine</h1>
+<p align="center">
+  <b>Polyglot News Aggregator (Rust, C++, Go, Java, Python, Julia, Elixir)</b>
+</p>
 
-![Python](https://img.shields.io/badge/python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/rust-DEA584?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Go](https://img.shields.io/badge/go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-
-</div>
+<p align="center">
+  <a href="https://github.com/VinayakGhai/Tanya/releases/latest"><img src="https://img.shields.io/badge/Windows-Download_.exe-0078D4?style=for-the-badge&logo=windows" alt="Windows Download"></a>
+  <a href="https://github.com/VinayakGhai/Tanya/releases/latest"><img src="https://img.shields.io/badge/Linux-Download_.AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Download"></a>
+  <a href="https://github.com/VinayakGhai/Tanya/releases/latest"><img src="https://img.shields.io/badge/macOS-Download_.dmg-000000?style=for-the-badge&logo=apple" alt="macOS Download"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv2-8b5cf6?style=for-the-badge" alt="License"></a>
+</p>
 
 ---
 
